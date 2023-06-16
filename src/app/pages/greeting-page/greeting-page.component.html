@@ -1,0 +1,5 @@
+<h1>Greeting Page</h1>
+<ng-container *ngIf="profile">
+    <h2>Hello {{profile.firstName}} !!!</h2>
+    <button (click)="navigateToProfile()">Open Profile</button>
+</ng-container>
